@@ -1,0 +1,35 @@
+/* Changing the font of the entire page*/
+body {
+    font-family: "Comic Sans MS";
+}
+/* Changing only the header font and color*/
+h1 {
+   font-family: "Papyrus";
+   color: purple; 
+}
+/* Creating the navigation bar*/
+ul {
+    list-style: none;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    padding: 16px;
+    margin: 0;
+}
+ul li a {
+    color: black;
+}
+/* Using a pseudo-class to change link color when you hover over it*/
+a:hover {    
+    color: #AAA;
+}
+/* Editing the footer at the bottom of the page*/
+footer {
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    padding: 16px;
+}
